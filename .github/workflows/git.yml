@@ -4,6 +4,6 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-  steps:
+    steps:
     - name: github  
       run: echo "hai good afternoon"
