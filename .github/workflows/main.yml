@@ -1,0 +1,10 @@
+name: workflow
+on:
+ workflow_dispatch:
+jobs:
+  demo: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: steps for workflow
+        run: echo "hai github"
+  
