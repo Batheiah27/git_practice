@@ -1,0 +1,10 @@
+name: workflows
+on:
+ worksflow_dispatch:
+jobs:
+  demo:
+  steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git
+        run: echo "hello hai"
